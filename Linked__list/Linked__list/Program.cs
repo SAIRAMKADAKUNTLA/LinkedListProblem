@@ -24,6 +24,9 @@ namespace Linked__list
             list.Search(30);
             Console.WriteLine("after finding");
             list.Show();
+            list.InsertAt(2, 40);
+            Console.WriteLine("After adding");
+            list.Show();
             
         }
     }
