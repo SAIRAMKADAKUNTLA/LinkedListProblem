@@ -18,8 +18,11 @@ namespace Linked__list
             //list.Pop();
             //Console.WriteLine("After pop head");
             //list.Show();
-            list.DeleteAt(2);
-            Console.WriteLine("After deleting last");
+            //list.DeleteAt(2);
+            //Console.WriteLine("After deleting last");
+            //list.Show();
+            list.Search(30);
+            Console.WriteLine("after finding");
             list.Show();
             
         }

@@ -81,5 +81,24 @@ namespace Linked__list
             }
 
         }
+        public int Search(int data)
+        {
+            Node node = new Node();
+            Node node1 = head;
+            int count = 0;
+            while(node1 != null)
+            {
+                if(node1.data == data)
+                {
+                    Console.WriteLine("element is found"+data+"count is"+count);
+                    return count;
+                }
+                count++;
+                node1 = node1.next;
+            
+            }
+            Console.WriteLine("element not found");
+            return 0;
+        }
     }
 }
