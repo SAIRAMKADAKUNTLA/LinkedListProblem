@@ -36,5 +36,26 @@ namespace Linked__list
             }
             Console.WriteLine(node.data);
         }
+        public void InsertStart(int data)
+        {
+            Node node = new Node();
+            node.data = data;
+            node.next = null;
+            node.next = head;
+            head = node;
+        }
+        public void InsertAt(int index,int data)
+        {
+            Node node = new Node();
+            node.data = data;
+            node.next = null;
+            Node node1 = head;
+            for(int i = 0; i < index - 1; i++)
+            {
+                node1 = node1.next;
+            }
+            node.next = node1.next;
+            node1.next = node;
+        }
     }
 }
