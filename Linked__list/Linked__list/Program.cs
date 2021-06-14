@@ -11,9 +11,9 @@ namespace Linked__list
             list.Insert(56);            
             list.Insert(70);
             Console.WriteLine("list of elements");
-            list.Show();
-            list.InsertStart(30);
-            Console.WriteLine("after adding start element");
+            list.Show();          
+            Console.WriteLine("after adding");
+            list.InsertAt(1, 30);
             list.Show();
             
         }
