@@ -15,6 +15,9 @@ namespace Linked__list
             Console.WriteLine("after adding");
             list.InsertAt(1, 30);
             list.Show();
+            list.Pop();
+            Console.WriteLine("After pop head");
+            list.Show();
             
         }
     }

@@ -57,5 +57,10 @@ namespace Linked__list
             node.next = node1.next;
             node1.next = node;
         }
+        public void Pop()
+        {
+            head = head.next;
+
+        }
     }
 }
