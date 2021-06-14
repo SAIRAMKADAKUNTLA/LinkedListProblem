@@ -15,8 +15,11 @@ namespace Linked__list
             Console.WriteLine("after adding");
             list.InsertAt(1, 30);
             list.Show();
-            list.Pop();
-            Console.WriteLine("After pop head");
+            //list.Pop();
+            //Console.WriteLine("After pop head");
+            //list.Show();
+            list.DeleteAt(2);
+            Console.WriteLine("After deleting last");
             list.Show();
             
         }
