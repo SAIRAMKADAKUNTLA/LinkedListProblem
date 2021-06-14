@@ -27,6 +27,9 @@ namespace Linked__list
             list.InsertAt(2, 40);
             Console.WriteLine("After adding");
             list.Show();
+            list.DeleteAt(2);
+            Console.WriteLine("After deleting");
+            list.Show();
             
         }
     }
